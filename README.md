@@ -1,14 +1,23 @@
 # GuildGame
 
-[C# 소스 (76개)](Source/Assets) · [Unity 데모](UnityDemo) · [실행 방법](#unity-데모-실행)
+[C# 소스 (76개)](Source/Assets) · [게임 실행](#게임-실행) · [Unity 데모 실행](#unity-데모-실행)
 
-공개 소스는 원본의 게임 C# 파일을 폴더 구조와 함께 담았습니다. 로컬 개발 경로가 들어간 임시 스크립트는 제외했습니다. 게임 소스는 구현 열람용입니다. 실행은 독립 데모에서 확인할 수 있습니다.
+공개 소스는 원본의 게임 C# 파일을 폴더 구조와 함께 담았습니다. 로컬 개발 경로가 들어간 임시 스크립트는 제외했습니다. 공개 C# 소스에서 구현을 살펴보고, 게임 빌드와 Unity 데모를 각각 실행할 수 있습니다.
 
 <p align="center">
   Unity 기반 2D 길드/전투 포트폴리오 프로젝트
 </p>
 
 ---
+
+## 게임 실행
+
+[Windows·Android ZIP 다운로드](https://github.com/whtjdgh1931/guildgame-code-samples/releases/download/portfolio-demo-v2/GuildGame-Windows-Android.zip) · [릴리스 portfolio-demo-v2](https://github.com/whtjdgh1931/guildgame-code-samples/releases/tag/portfolio-demo-v2)
+
+- **Windows**에서는 ZIP 전체를 압축 해제한 뒤 `PC/GuildGame.exe`를 실행합니다.
+- **Android**에서는 ZIP의 `Android/GuildGame.apk`를 기기에 설치합니다.
+
+외부 리소스와 글꼴 라이선스 고지는 ZIP의 `THIRD-PARTY-NOTICES.txt`를 참고하세요.
 
 ## 프로젝트 소개
 
@@ -29,7 +38,7 @@ GuildGame은 **길드 운영과 전투 흐름**을 중심으로 구성한 Unity 
 | 주요 패키지 | URP, AI Navigation, TextMeshPro, UGUI, Memory Profiler, Newtonsoft JSON |
 | 주요 대상 플랫폼 | PC (Standalone),Android |
 | 플랫폼 설정 값 | Android Min SDK 22 / Target SDK 34, iOS Target 12.0 |
-| 현재 배포 상태 | Release에 Demo버전 |
+| 현재 배포 상태 | Windows·Android 포트폴리오 데모 v2 |
 | 데모 영상 | 준비 중 |
 
 ### 이런 점을 중점으로 설계했습니다
@@ -43,7 +52,7 @@ GuildGame은 **길드 운영과 전투 흐름**을 중심으로 구성한 Unity 
 
 ## Unity 데모 실행
 
-1. 저장소를 내려받은 뒤 Unity Hub에서 `UnityDemo` 폴더를 추가합니다.
+1. 저장소를 내려받은 뒤 Unity Hub에서 [`UnityDemo`](UnityDemo) 폴더를 추가합니다.
 2. Unity **6000.4.8f1**에서 `Assets/Scenes/PortfolioDemo.unity`를 열고 **Play**를 누릅니다.
 3. **Guard**와 **Archer**를 배치하고 **Start battle**을 누릅니다. 전투 상태와 체력 변화를 보고 스테이지를 클리어한 뒤 **Next stage**로 이동합니다.
 
