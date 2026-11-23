@@ -15,3 +15,11 @@
 - [스테이지 해금과 버튼 재사용](02-stage-panel.md)
 
 코드는 원본 프로젝트의 일부를 발췌했습니다. 실행에는 Unity 씬과 프리팹, 프로젝트 설정이 필요합니다.
+
+## Unity에서 플레이
+
+Unity Hub의 **Add**로 [UnityDemo](UnityDemo) 폴더를 등록하고 **Unity 6000.4.8f1**에서 엽니다. Project 창에서 `Assets/Scenes/PortfolioDemo.unity`를 열고 **Play**를 누릅니다.
+
+Guard와 Archer를 배치하고 Start battle을 누릅니다. 전투 진행 상태와 체력 변화, 첫 스테이지 클리어 후 다음 스테이지 해금을 확인할 수 있습니다.
+
+포트폴리오용 기능 데모입니다. 화면 요소는 Unity 기본 도형과 GUI로 그리며, 에셋 구매나 외부 서비스 계정 없이 실행할 수 있습니다.
