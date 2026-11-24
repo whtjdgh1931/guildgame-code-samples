@@ -1,6 +1,6 @@
 # GuildGame
 
-[C# 소스 (76개)](Source/Assets) · [게임 실행](#게임-실행) · [Unity 데모 실행](#unity-데모-실행)
+[포트폴리오 PDF](docs/GuildGame_Portfolio.pdf) · [C# 소스 (76개)](Source/Assets) · [게임 실행](#게임-실행) · [Unity 데모 실행](#unity-데모-실행)
 
 공개 소스는 원본의 게임 C# 파일을 폴더 구조와 함께 담았습니다. 로컬 개발 경로가 들어간 임시 스크립트는 제외했습니다. 공개 C# 소스에서 구현을 살펴보고, 게임 빌드와 Unity 데모를 각각 실행할 수 있습니다.
 
